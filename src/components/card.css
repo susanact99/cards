@@ -1,0 +1,57 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+.main-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    min-height: 400px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+.card{
+    background-color: rgb(240, 234, 226);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 21rem;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 1rem;
+    justify-content: space-around;
+    transition: .3s ;
+    border: .1rem solid rgb(240, 234, 226);
+}
+.type{
+    font-weight: bold;
+}
+.title{
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: bold;
+}
+.bi-chat-square-quote{
+    font-size: 2.5rem;
+
+}
+ .img-container{
+    width: 6rem;
+ }
+.avatar{
+    width: 6rem;
+    border-radius: 50%;
+}
+.views{
+    margin-right: 1rem;
+}
+
+.card:hover{
+    border: .1rem solid rgb(98, 98, 98);
+    translate: 0px 5px;
+    box-shadow: 0px 5px 20px rgb(154, 154, 154);
+}
+
+
+
